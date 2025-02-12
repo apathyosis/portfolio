@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph</title>
+  <link rel="stylesheet" crossorigin href="/portfolio/assets/full-site-FZDFV5cp.css">
+</head>
+<body>
+<nav>
+    <a href="/portfolio/index">Home</a>
+    <a href="/portfolio/demos/paragraph">Paragraph</a>
+    <a href="/portfolio/demos/color-change">Random Color</a>
+  </nav>
+    <p>
+        <h1>this is a paragraph updater!</h1>
+    </p>
+    <p>
+        <input type="Text" id="inputText" value>
+        <button onclick="doUpdateParagraph()">Update The Paragraph
+        </button>
+    </p>
+    <p id="outputParagraph">[]</p>
+    <script>
+            function doUpdateParagraph() {
+              var inputElement =
+      document.getElementById("inputText");
+              var outputElement =
+      document.getElementById("outputParagraph");
+              var message = inputElement.value;
+              outputElement.textContent = message;
+        }
+    </script>
+</body>
+</html>

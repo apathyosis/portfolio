@@ -2,13 +2,14 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
     base: "/portfolio/",
-
+    root: "src",
     build: {
-        outDir: "docs",
+        outDir: "../docs",
         rollupOptions: {
             input: {
-                main: '/index.html',
-                about: '/about/indexa.html'
+                main: 'src/index.html',
+                demos1: 'src/demos/color-change.html',
+                demos2: 'src/demos/paragraph.html',
             }
         }
     }
