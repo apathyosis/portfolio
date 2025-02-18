@@ -11,3 +11,10 @@ button {
     font-family: monospace;
     font-size: small;
 }
+
+/* Attribution for palindrome HTML */
+
+#attribution {
+    padding-top: 39%;
+    text-align: center;
+}
