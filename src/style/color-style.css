@@ -1,21 +1,18 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --yellow: #f1be32;
   --golden-yellow: #feac32;
   --dark-purple: #110815;
   --light-grey: #efefef;
+  font-family: monospace;
+  font-size: large;
 }
 
 body {
   background-color: var(--dark-purple);
   color: var(--light-grey);
+}
+
+.body {
   text-align: center;
 }
 
@@ -40,5 +37,5 @@ body {
 }
 
 #attribution {
-  padding-top: 30%;
+  padding-top: 25%;
 }
