@@ -39,3 +39,15 @@ body {
 #attribution {
   padding-top: 25%;
 }
+
+a {
+  color:rgb(229, 223, 255);
+}
+
+a:visited {
+  color:rgb(157, 103, 243);
+}
+
+a:hover {
+  color: rgb(106, 61, 190);
+}

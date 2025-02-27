@@ -9,3 +9,5 @@ feel free to have a look around the pages and site!
 
     ChangeLog:
     -- 2/11/2025: added README.md, overhauled the site to use vite, added ChangeLog.
+
+    -- 2/26/2025: forgot about Changelog, added roman.html + palindrome.html (with their respective scripts), fixed color-change.html from straining eyes.

@@ -12,9 +12,23 @@ button {
     font-size: small;
 }
 
-/* Attribution for palindrome HTML */
+/* Attribution CSS */
 
 #attribution {
-    padding-top: 39%;
+    padding-top: 32%;
     text-align: center;
+}
+
+/* link colors */
+
+a {
+    color: rgb(229, 223, 255);
+}
+
+a:visited {
+    color: rgb(157, 103, 243);
+}
+
+a:hover {
+    color: rgb(106, 61, 190);
 }
