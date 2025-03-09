@@ -11,7 +11,8 @@ export default defineConfig({
                 demos1: 'src/demos/color-change.html',
                 demos2: 'src/demos/paragraph.html',
                 demos3: 'src/demos/palindrome.html',
-                demos4: 'src/demos/roman.html'
+                demos4: 'src/demos/roman.html',
+                demos5: 'src/demos/tele-num-val.html'
             }
         }
     }
