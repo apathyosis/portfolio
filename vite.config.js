@@ -8,11 +8,12 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: 'src/index.html',
-                demos1: 'src/demos/color-change.html',
-                demos2: 'src/demos/paragraph.html',
-                demos3: 'src/demos/palindrome.html',
-                demos4: 'src/demos/roman.html',
-                demos5: 'src/demos/tele-num-val.html'
+                cert: 'src/demos/certifications.html',
+                demos1A: 'src/demos/color-change.html',
+                demos2A: 'src/demos/paragraph.html',
+                demos3A: 'src/demos/palindrome.html',
+                demos4A: 'src/demos/roman.html',
+                demos5A: 'src/demos/tele-num-val.html',
             }
         }
     }
