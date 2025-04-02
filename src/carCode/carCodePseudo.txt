@@ -1,0 +1,13 @@
+CAR CODE PSEUDO
+
+start
+    show a list of car brand buttons (Cadillac, Ford)
+
+    upon clicking car brand show subset buttons (de Ville, thunderbird)
+
+    upon clicking a subset show a list of cars (sorted by year) with bare bone info
+    
+    upon clicking a car get the same bare bone information then click around the car (or buttons) to get detailed information
+
+
+    UPDATE ALL BUTTONS TO BE DROP DOWN (minus digging deeper buttons)
