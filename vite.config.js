@@ -14,6 +14,8 @@ export default defineConfig({
                 demos3A: 'src/demos/palindrome.html',
                 demos4A: 'src/demos/roman.html',
                 demos5A: 'src/demos/tele-num-val.html',
+                demos6A: 'src/demos/cash.html',
+                demos7A: 'src/demos/pokemon.html'
             }
         }
     }
