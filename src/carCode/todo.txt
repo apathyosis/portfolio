@@ -1,0 +1,9 @@
+1. Fix JS
+    - get it to be read
+
+    - get data to be read from JS instead of hard coded
+        - figure out object lists ,,,
+
+    - get the search function working (https://www.youtube.com/watch?v=TlP5WIxVirU)
+
+    - add in save feature (,, somehow)

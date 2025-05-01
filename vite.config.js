@@ -18,9 +18,7 @@ export default defineConfig({
                 demos6A: 'src/demos/cash.html',
                 demos7A: 'src/demos/pokemon.html',
 
-                carMain: 'src/carCode/carMain.html',
-                carSub: 'src/carCode/carSub.html',
-                carPage: 'src/carCode/carPage.html'
+                carMain: 'src/carCode/carMain.html'
             }
         }
     }
