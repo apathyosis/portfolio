@@ -1,6 +1,7 @@
 const carTemplate = document.querySelector("[data-car-template]");
 const searchInput = document.querySelector([data-search]);
 const searchBtn = document.getElementById("search-btn");
+const textInput = document.getElementById("text-input");
 
 searchInput.addEventListener("input", (e) => {
     const value = e.target.value;
@@ -175,24 +176,19 @@ const carInfo = {
     ]
 };
 
-// products.forEach(
-//     ({ name, id, price, category }) => {
-//       dessertCards.innerHTML += `
-//         <div class="dessert-card">
-//           <h2>${name}</h2>
-//           <p class="dessert-price">$${price}</p>
-//           <p class="product-category">Category: ${category}</p>
-//           <button 
-//             id="${id}" 
-//             class="btn add-to-cart-btn">Add to cart
-//           </button>
-//         </div>
-//       `;
-//     }
-//   );
-
 carInfo.forEach(
-    ({ model, prodYears, numProd, engineType, transType, driveType, doorNum, seatNum, price }) => {
-
+    ({ prodYears, numProd, engineType, transType, driveType, doorNum, seatNum, price }) => {
+        textInput.innerHTML += `
+        <div class="text">
+            <p class="prod-years"><b>Production Years: </b>${prodYears}</p>
+            <p class="num-produced"><b>Number Produced: </b>${numProd}</p>
+            <p class="engine-type"><b>Engine Type: </b>${engineType}</p>
+            <p class="trans-type"><b>Transmission Type: </b>${transType}</p>
+            <p class="drive-type"><b>Drive Type: </b>${driveType}</p>
+            <p class="door-num"><b>Door Number: </b>${doorNum}</p>
+            <p class="seat-num"><b>Seat Number: </b>${seatNum}</p>
+            <p class="price"><b>Price: </b>${price}</p>
+        </div>
+        `;
     }
-)
+);
